@@ -16,13 +16,13 @@ pipeline {
         stage('Build') {
             steps {
             
-                bat 'Sample.java'
+                sh 'Sample.java'
             }
         }
 
         stage('Run') {
             steps {
-                bat 'Sample'
+                sh 'Sample'
             }
         }
 
