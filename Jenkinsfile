@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/abhinav761/basic.git',
+                    url: 'https://github.com/mareedusrinivas/basic.git',
                     credentialsId: 'github-token'
             }
         }
